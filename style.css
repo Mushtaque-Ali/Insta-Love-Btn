@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#card{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px ;
+
+}
+#card img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+#main i{
+    font-size: 75px;
+    color: #fff;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all ease 0.5s;
+}
